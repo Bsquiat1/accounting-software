@@ -1,9 +1,9 @@
 // src/redux/reducers/index.js
 import { combineReducers } from 'redux';
-import counterReducer from './counterReducer'; // Import your reducer(s)
+import invoicesReducer from './invoicesReducer.js'; // Import your reducer(s)
 
 const rootReducer = combineReducers({
-  counter: counterReducer,
+ invoices: invoicesReducer
   // Add more reducers here
 });
 
